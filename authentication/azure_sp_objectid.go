@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/Azure/azure-sdk-for-go/services/graphrbac/1.6/graphrbac"
 	"github.com/hashicorp/go-azure-helpers/sender"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/graphrbac/1.6/graphrbac"
 )
 
 func buildServicePrincipalObjectIDFunc(c *Config) func(ctx context.Context) (string, error) {

@@ -7,7 +7,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/Azure/azure-sdk-for-go/profiles/2017-03-09/resources/mgmt/resources"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/resources/mgmt/2016-02-01/resources"
 )
 
 // DetermineResourceProvidersRequiringRegistration determines which Resource Providers require registration to be able to be used
