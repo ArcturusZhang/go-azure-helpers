@@ -71,6 +71,8 @@ func (b Builder) Build() (*Config, error) {
 		azureCliTokenAuth{},
 	}
 
+	// TODO -- add a similar sequence for track 2 credential
+
 	for _, method := range supportedAuthenticationMethods {
 		name := method.name()
 		log.Printf("Testing if %s is applicable for Authentication..", name)
