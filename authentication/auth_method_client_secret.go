@@ -92,5 +92,8 @@ func (a servicePrincipalClientSecretAuth) validate() error {
 func (a servicePrincipalClientSecretAuth) getTokenCredential(endpoint string) (azcore.TokenCredential, error) {
 	return azidentity.NewClientSecretCredential(a.tenantId, a.clientId, a.clientSecret, &azidentity.ClientSecretCredentialOptions{
 		AuthorityHost: endpoint,
+		Logging: azcore.LogOptions{
+			IncludeBody: true,
+		},
 	})
 }
