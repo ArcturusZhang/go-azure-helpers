@@ -2,7 +2,7 @@ module github.com/hashicorp/go-azure-helpers
 
 require (
 	github.com/Azure/azure-sdk-for-go v51.2.0+incompatible
-	github.com/Azure/azure-sdk-for-go/sdk/azcore v0.14.2
+	github.com/Azure/azure-sdk-for-go/sdk/azcore v0.14.5
 	github.com/Azure/azure-sdk-for-go/sdk/azidentity v0.8.0
 	github.com/Azure/go-autorest/autorest v0.11.18
 	github.com/Azure/go-autorest/autorest/adal v0.9.13
